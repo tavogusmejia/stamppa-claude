@@ -1,6 +1,6 @@
-# Stamppa for Claude
+# Stamppa
 
-Connect Claude to [Stamppa](https://stamppa.com), the PDF viewer for drawing sets. The plugin gives Claude a local connection to the drawings you have open in Stamppa and three ready-made skills for plan work.
+The Stamppa plugin for Claude. It connects Claude to [Stamppa](https://stamppa.com), the PDF viewer for drawing sets. The plugin gives Claude a local connection to the drawings you have open in Stamppa and three ready-made skills for plan work.
 
 ## What it is
 
@@ -54,3 +54,7 @@ To be decided (pending). Until then no license is granted beyond reading and ins
 ## About
 
 Made by Plano Base Arquitectos S.A.S. - https://stamppa.com
+
+## Trademarks
+
+Stamppa is a product of Plano Base Arquitectos S.A.S. It is not affiliated with, endorsed by or sponsored by Anthropic. Claude is a trademark of Anthropic, PBC.
