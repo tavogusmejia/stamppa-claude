@@ -1,0 +1,20 @@
+{
+  "name": "stamppa",
+  "displayName": "Stamppa",
+  "version": "0.1.0",
+  "description": "Connect Claude to Stamppa, the PDF viewer for drawing sets: review sheets, pull quantities and build review reports from the plans you have open.",
+  "author": {
+    "name": "Plano Base Arquitectos S.A.S.",
+    "url": "https://stamppa.com"
+  },
+  "homepage": "https://stamppa.com",
+  "keywords": [
+    "pdf",
+    "drawings",
+    "architecture",
+    "construction",
+    "quantities",
+    "markups"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "stamppa": {
+      "command": "${STAMPPA_EXE:-/Applications/Stamppa.app/Contents/MacOS/Stamppa}",
+      "args": ["--mcp"]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "stamppa-claude",
+  "description": "Stamppa for Claude: skills and a local connection to the Stamppa PDF viewer for drawing sets.",
+  "owner": {
+    "name": "Plano Base Arquitectos S.A.S.",
+    "url": "https://stamppa.com"
+  },
+  "plugins": [
+    {
+      "name": "stamppa",
+      "source": "./",
+      "description": "Review drawing sets, turn measured quantities into tables and build review reports, using the Stamppa app on your computer.",
+      "category": "productivity",
+      "tags": ["pdf", "drawings", "architecture", "construction"]
+    }
+  ]
+}
