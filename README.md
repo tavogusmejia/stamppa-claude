@@ -40,8 +40,6 @@ In the Desktop chat, the connection comes from Stamppa itself, in one click: ope
 
 ## Privacy
 
-> **Draft, pending legal review (US-334).** Do not rely on this section until that review is done.
-
 - Your PDF files do not leave your computer through this plugin. Stamppa runs locally and the connection runs on your machine.
 - What the tools **return** does go to the model: sheet text, markup comments, measured quantities, sheet names and, if you ask for them, sheet images. Claude processes that content under the terms of the Claude plan you use.
 - Do not connect drawings that you are not allowed to share with an AI service.
@@ -49,7 +47,7 @@ In the Desktop chat, the connection comes from Stamppa itself, in one click: ope
 
 ## License
 
-To be decided (pending). Until then no license is granted beyond reading and installing the plugin as published.
+MIT. See [LICENSE](LICENSE).
 
 ## About
 
