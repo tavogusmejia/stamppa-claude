@@ -9,7 +9,7 @@ The Stamppa plugin for Claude. It connects Claude to [Stamppa](https://stamppa.c
   - `review-drawing-set`: review a set, find issues and leave markups signed as made by the AI assistant, unsaved, for you to review.
   - `quantities-to-table`: turn the measurements in a drawing into a Markdown or CSV table.
   - `review-report`: build a review report from the markups, the sheet text and the sheet package.
-  - `ask-the-drawing`: answer questions about the plans (counts, room areas, which sheet has what, dimensions, broken references) with the rule-based `ask_plan` tool, each answer with its citation.
+  - `ask-the-drawing`: answer questions about the plans (counts, room areas, which sheet has what, dimensions, broken references) with the rule-based `ask_plan` tool, each answer with its citation. Needs Stamppa 27.3.4 or later.
 
 No product code lives in this repository: only the manifest, the connection settings and the skills.
 
