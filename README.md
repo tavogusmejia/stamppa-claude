@@ -1,14 +1,15 @@
 # Stamppa
 
-The Stamppa plugin for Claude. It connects Claude to [Stamppa](https://stamppa.com), the PDF viewer for drawing sets. The plugin gives Claude a local connection to the drawings you have open in Stamppa and three ready-made skills for plan work.
+The Stamppa plugin for Claude. It connects Claude to [Stamppa](https://stamppa.com), the PDF viewer for drawing sets. The plugin gives Claude a local connection to the drawings you have open in Stamppa and four ready-made skills for plan work.
 
 ## What it is
 
 - **A local connection (MCP)** to the Stamppa app on your computer. Claude can list your sheet sets, search and read sheet text, read markups and measured quantities, and, if you allow it, add markups.
-- **Three skills**:
+- **Four skills**:
   - `review-drawing-set`: review a set, find issues and leave markups signed as made by the AI assistant, unsaved, for you to review.
   - `quantities-to-table`: turn the measurements in a drawing into a Markdown or CSV table.
   - `review-report`: build a review report from the markups, the sheet text and the sheet package.
+  - `ask-the-drawing`: answer questions about the plans (counts, room areas, which sheet has what, dimensions, broken references) with the rule-based `ask_plan` tool, each answer with its citation. Needs Stamppa 27.3.4 or later.
 
 No product code lives in this repository: only the manifest, the connection settings and the skills.
 
@@ -26,7 +27,7 @@ No product code lives in this repository: only the manifest, the connection sett
 /plugin install stamppa@stamppa-claude
 ```
 
-Start a new session. The skills appear as `/stamppa:review-drawing-set`, `/stamppa:quantities-to-table` and `/stamppa:review-report`.
+Start a new session. The skills appear as `/stamppa:review-drawing-set`, `/stamppa:quantities-to-table`, `/stamppa:review-report` and `/stamppa:ask-the-drawing`.
 
 The connection starts `Stamppa --mcp`. On macOS it uses `/Applications/Stamppa.app/Contents/MacOS/Stamppa`. The plugin format has no per-system command, so on **Windows** set the environment variable `STAMPPA_EXE` to the full path of `Stamppa.exe` (the folder you chose when you installed Stamppa) before starting Claude Code, or connect with the one-click button described below, which writes the right path for your system.
 
